@@ -1,0 +1,44 @@
+//button
+
+.bttn {
+ position: absolute;
+ left: 44%;
+ top: 45%;
+ display: inline-block;
+ color: $btn-color;
+ border: none;
+ font-size: $btn-font-size;
+ font-weight: 800;
+ width: $btn-width;
+ line-height: $line-height;
+ text-align: center;
+ vertical-align: middle;
+ cursor: pointer;
+ background: none;
+    &:hover {
+     color: $btn-hover-color;
+  }
+}
+
+.girl{
+  width: 7vw;
+  height:10vw;
+  position: absolute;
+  left:47%;
+  top: 17%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.cat{
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  left: 44%;
+  top: 75%;
+  transform: rotate(180deg);
+  &:hover{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,48 @@
+
+//main
+$main-color: lighten(#333, 70%);
+$font-size: 12px;
+$line-height: 1.6;
+
+
+//tg
+$tg-hover-color: lighten(#333, 40%);
+
+//btn
+$btn-color: transparentize(lighten(#000, 5%), 0.1);
+$btn-hover-color: lighten(#333, 20%);
+$btn-font-size: 3vw;
+$btn-width: 12vw;
+
+//search field
+$search-color: $btn-color;
+$search-hover-color: $btn-hover-color;
+$search-border: 2px;
+$search-border-radius: 2px;
+$search-font-size: 32px;
+$search-width: 40vw;
+$search-bg: transparentize(lighten(#000, 5%), 0.1);
+
+//footer
+$footer-height: 2vw;
+$footer-width: 100%;
+$footer-bg: transparentize(lighten(#000, 10%), 0.3);
+$footer-text-size: 14px;
+$footer-margin: 5px;
+$footer-img-height: 1.5vw;
+$footer-img-width: 2.5vw;
+$footer-border-radius: 2px;
+
+//modal
+$txt-color: #333;
+$btn-mod-color: $btn-color;
+$modal-sec-color: lighten(#434DB0, 20%);
+$mod-hov-color: #333232;
+$mod-ttl-font-size: 20px;
+$mod-input-margin: 5px;
+$mod-btn-radius: 2px;
+$mod-btn-font-size: 15px;
+$mod-btn-width: 65px;
+$mod-line-height: 1.7;
+$mod-input-font: 15px;
+$mod-input-font-color: lighten(#000, 10%);
