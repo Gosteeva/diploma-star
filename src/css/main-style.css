@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400);
-@import url(https://fonts.googleapis.com/css?family=Raleway:800);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /*@font-face {
     font-family: 'Monly-Bold';
     src: url("parts/ont/Monly-Bold.ttf");*/
@@ -20,22 +19,57 @@ body {
 .btn{
     background-color: transparent;
     color: #e2dbbe;
-    font-size: 15px;
+    font-size: 35px;
     padding: 5px;
+  }
+  .btn:hover, .btn:focus {
+    color: #dbbd8a;
+  }
+  .btn-search{
+    position: fixed;
+    left: 26%;
   }
 
   .head-img{
-    height: 15px;
-    border-radius: 1px;
+    height: 40px;
+    border-radius: 3px;
+    float: right;
+    padding: 5px;
   }
 
 .planet{
-  height: 62%;
-  position: relative;
-  top: 20%;
-  left: 28%;
+  height: 76%;
+  position: absolute;
+  top: 18%;
+  left: 40%;
 }
 
+/*menu*/
+.menu{
+    background-color: #3b3843;
+    width: 25%;
+    height: 100vh;
+}
+
+.menu button{
+  float: right;
+  padding: 10px;
+}
+
+.menu-list{
+  display: inline;
+  list-style-type: none;
+  color: #e2dbbe;
+}
+.menu-list li{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu-list li:hover{
+  color: #dbbd8a;
+  cursor: pointer;
+}
 
 
 /*.name {
