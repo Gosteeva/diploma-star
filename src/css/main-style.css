@@ -1,17 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400);
 @import url(https://fonts.googleapis.com/css?family=Raleway:800);
-body {
-  min-width: 592px;
-  font-family: 'Raleway', sans-serif;
-  background: url("../img/bg1.jpg");
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: cover;
-  color: #e6e6e6;
-  background-size: cover;
+/*@font-face {
+    font-family: 'Monly-Bold';
+    src: url("parts/ont/Monly-Bold.ttf");*/
+   /*}*/
+
+html{
+  overflow:  hidden;
 }
 
-.bttn {
+body {
+  background: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  max-width: none;
+  height: 100%;
+  }
+
+/*header*/
+.btn{
+    background-color: transparent;
+    color: #e2dbbe;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .head-img{
+    height: 15px;
+    border-radius: 1px;
+  }
+
+.planet{
+  height: 62%;
+  position: relative;
+  top: 20%;
+  left: 28%;
+}
+
+
+
+/*.name {
   position: absolute;
   left: 44%;
   top: 45%;
@@ -24,74 +51,24 @@ body {
   line-height: 1.6;
   text-align: center;
   vertical-align: middle;
-  cursor: pointer;
-  background: none;
-}
+   }*/
 
-.bttn:hover {
-  color: #666666;
-}
-
-.girl {
-  width: 7vw;
-  height: 10vw;
-  position: absolute;
-  left: 47%;
-  top: 17%;
-}
-
-.girl:hover {
-  cursor: pointer;
-}
-
-.cat {
-  width: 10vw;
-  height: 10vw;
-  position: absolute;
-  left: 44%;
-  top: 75%;
-  transform: rotate(180deg);
-}
-
-.cat:hover {
-  cursor: pointer;
-}
-
-footer {
+/*footer {
   position: fixed;
   padding: 5px;
   bottom: 0;
   left: 0;
   height: 2vw;
   width: 100%;
-  background: rgba(26, 26, 26, 0.7);
-}
-
+  background: rgba(26, 26, 26, 0.7); }
 .footer-text {
   display: block;
   float: left;
   font-size: 14px;
-  text-transform: uppercase;
-}
-
+  text-transform: uppercase; }
 .footer-text:hover {
-  cursor: pointer;
-}
-
+    cursor: pointer; }
 .footer-text li {
-  display: inline;
-  list-style: none;
-  margin: 5px;
-}
-
-.footer-img {
-  float: right;
-  margin: auto 10px;
-  height: 1.5vw;
-  width: 2.5vw;
-  border-radius: 2px;
-}
-
-.footer-img:hover {
-  cursor: pointer;
-}
+    display: inline;
+    list-style: none;
+    margin: 5px; }*/
