@@ -72,6 +72,9 @@ body {
   color: #dbbd8a;
   cursor: pointer;
 }
+.menu-list a{
+  text-decoration: none;
+}
 
 
 /*.name {
