@@ -49,6 +49,8 @@ body {
     background-color: #3b3843;
     width: 25%;
     height: 100vh;
+    z-index: 10;
+    position: absolute;
 }
 
 .menu button{
@@ -87,14 +89,16 @@ body {
   vertical-align: middle;
    }*/
 
-/*footer {
-  position: fixed;
+footer {
+  position: absolute;
   padding: 5px;
   bottom: 0;
   left: 0;
   height: 2vw;
   width: 100%;
-  background: rgba(26, 26, 26, 0.7); }
+  background: rgba(26, 26, 26, 0.7);
+  z-index: 0;
+}
 .footer-text {
   display: block;
   float: left;
@@ -105,4 +109,5 @@ body {
 .footer-text li {
     display: inline;
     list-style: none;
-    margin: 5px; }*/
+    margin: 5px;
+  }
