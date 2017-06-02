@@ -13,27 +13,33 @@
 
 
     if (language == "en") {
-      $('.bttn').html("LIGHT A STAR");
-      $('.or').html("or");
-      $('.s-txt').html("search");
-      $('.l-txt').html("light a star");
+      $('.name').html("LIGHT A STAR");
+      $('.log').html("Log in/Registration");
+      $('.norg').html("Add organization");
+      $('.vorg').html("View organizations");
       $('.about-us').html("About us");
-      $('.bug').html("Report a bug");
-      $('.modal-title').html("Light a star");
-      $('.star-name').attr("placeholder", "Name of the star");
-      $('.wish-txt').attr("placeholder", "Write here your wish here");
-      $('.btn-default').html("Cancel");
+      $('.cont').html("Contacts");
+      $('.help').html("Help");
+      $('.bug').html("Report issue");
+      $('.feed').html("Feedback");
+      // $('.modal-title').html("Light a star");
+      // $('.star-name').attr("placeholder", "Name of the star");
+      // $('.wish-txt').attr("placeholder", "Write here your wish here");
+      // $('.btn-default').html("Cancel");
     } else if (language == "ua") {
-      $('.bttn').html("ЗАПАЛИ ЗІРКУ");
-      $('.or').html("або");
-      $('.s-txt').html("пошук");
-      $('.l-txt').html("запали зірку");
+      $('.name').html("ЗАПАЛИ ЗІРКУ");
+      $('.log').html("Увійти/зареєструватись");
+      $('.norg').html("Додати організацію");
+      $('.vorg').html("Переглянути організації");
       $('.about-us').html("Про нас");
+      $('.cont').html("Контакти");
+      $('.help').html("Допомога");
       $('.bug').html("Повідомити про помилку");
-      $('.modal-title').html("Запали зірку");
-      $('.star-name').attr("placeholder", "Ім'я зірки'");
-      $('.wish-txt').attr("placeholder", "Напишіть своє ");
-      $('.btn-default').html("Скасувати");
+      $('.feed').html("Залишити відгук");
+      // $('.modal-title').html("Запали зірку");
+      // $('.star-name').attr("placeholder", "Ім'я зірки'");
+      // $('.wish-txt').attr("placeholder", "Напишіть своє ");
+      // $('.btn-default').html("Скасувати");
     }
 
     $( ".eng" ).click(function() {

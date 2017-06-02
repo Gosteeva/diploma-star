@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-/*@font-face {
+@font-face {
     font-family: 'Monly-Bold';
-    src: url("parts/ont/Monly-Bold.ttf");*/
-   /*}*/
+    src: url("./font/Monly-Bold.ttf");
+   }
 
-html{
-  overflow:  hidden;
-}
-
-body {
-  background: url("../img/bg1.jpg");
-  background-repeat: no-repeat;
-  max-width: none;
-  height: 100%;
+   html{
+    overflow:  hidden;
   }
 
-/*header*/
-.btn{
+  body {
+    background: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    max-width: none;
+    height: 100%;
+  }
+
+  /*header*/
+  .btn{
     background-color: transparent;
     color: #e2dbbe;
     font-size: 35px;
@@ -24,10 +24,46 @@ body {
   }
   .btn:hover, .btn:focus {
     color: #dbbd8a;
+    outline: none;
   }
+
+  .home{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+  }
+  .fa-home{
+    text-decoration: none;
+    color: inherit;
+  }
+  .fa-home:hover{
+    color: inherit;
+    text-decoration: none;
+  }
+
   .btn-search{
     position: fixed;
-    left: 26%;
+    left: 320px;
+  }
+  .input-group{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    left: 310px;
+    background-color: #9dbbae;
+    border-color: none;
+    border-left: 0px;
+  }
+  .form-control{
+    height: inherit;
+    background-color: inherit;
+    border-color: inherit;
+  }
+  .input-group-btn .fa-search{
+    font-size: 28px;
+    height: inherit;
+    border-color: inherit;
+    color: #3b3843;
   }
 
   .head-img{
@@ -37,80 +73,114 @@ body {
     padding: 5px;
   }
 
-.planet{
-  height: 76%;
-  position: absolute;
-  top: 18%;
-  left: 40%;
-}
 
-/*menu*/
-.menu{
+  /*main*/
+  .planet{
+    height: 400px;
+    position: absolute;
+    top: 110px;
+    left: 264px;
+  }
+
+  .name {
+    font-family: "Monly-Bold", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 223px;
+    left: 412px;
+    z-index: 10;;
+  }
+
+  .list{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #e2dbbe;
+    opacity: 0.9;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+
+  /*menu*/
+  .fa-bars{
+    position: absolute;
+    z-index: 2;
+    left: 250px;
+    top: 5px;
+  }
+
+  .menu{
     background-color: #3b3843;
-    width: 25%;
-    height: 100vh;
+    width: 300px;
+    height: 100%;
+    opacity: 0.97;
     z-index: 10;
     position: absolute;
-}
+    display: block;
+    z-index: 1;
+  }
 
-.menu button{
-  float: right;
-  padding: 10px;
-}
+  .menu-list{
+    list-style-type: none;
+    color: #e2dbbe;
+    padding-left: 0;
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+  .menu-list li{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .menu-list li:hover{
+    color: #dbbd8a;
+    cursor: pointer;
+  }
+  .menu-list a{
+    text-decoration: none;
+    color: inherit;
+  }
 
-.menu-list{
-  display: inline;
-  list-style-type: none;
-  color: #e2dbbe;
-}
-.menu-list li{
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-}
-.menu-list li:hover{
-  color: #dbbd8a;
-  cursor: pointer;
-}
-.menu-list a{
-  text-decoration: none;
-}
+  /*log in*/
+/*
+  .myModal{
+    display: none;
+  }
+  */
 
+  /*footer*/
 
-/*.name {
-  position: absolute;
-  left: 44%;
-  top: 45%;
-  display: inline-block;
-  color: rgba(13, 13, 13, 0.9);
-  border: none;
-  font-size: 3vw;
-  font-weight: 800;
-  width: 12vw;
-  line-height: 1.6;
-  text-align: center;
-  vertical-align: middle;
-   }*/
+  footer{
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    background-color: #33303c;
+  }
 
-footer {
-  position: absolute;
-  padding: 5px;
-  bottom: 0;
-  left: 0;
-  height: 2vw;
-  width: 100%;
-  background: rgba(26, 26, 26, 0.7);
-  z-index: 0;
-}
-.footer-text {
-  display: block;
-  float: left;
-  font-size: 14px;
-  text-transform: uppercase; }
-.footer-text:hover {
-    cursor: pointer; }
-.footer-text li {
+  .footer-text {
+    float: right;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #e2dbbe;
+    font-size: 20px;
+  }
+  .footer-text li {
     display: inline;
     list-style: none;
     margin: 5px;
+  }
+  .footer-text li:hover {
+    cursor: pointer;
+    color: #dbbd8a;
+  }
+  .footer-text a{
+    text-decoration: none;
+    color: inherit;
   }
