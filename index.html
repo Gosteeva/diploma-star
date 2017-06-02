@@ -2,6 +2,7 @@
 <html>
  <!-- np-app="lightastar" -->
    <head>
+        <meta charset="utf-8">
         <title>Light a star</title>
         <!--styles-->
         <link rel="stylesheet" href="./src/css/bootstrap.css">
@@ -14,8 +15,8 @@
 
        <!--header-->
        <header>
-         <button type="button" class="btn btn-search fa fa-search"></button>
-         <div class="input-group">
+         <a href="javascript:void(0);" class="btn searchbtn fa fa-search"></a>
+         <div class="input-group search-group">
            <span class="input-group-btn">
              <button class="btn btn-default fa fa-search" type="button"></button>
            </span>
@@ -64,21 +65,20 @@
 
         <!-- modal windows -->
 
-        <div class="myModal modal fade" tabindex="-1" role="dialog">
+        <div class="logModal modal fade" tabindex="-1" role="dialog">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Light a star</h4>
+                <button type="button" class="close fa  fa-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                <h4 class="modal-title">Login</h4>
               </div>
               <div class="modal-body">
-                <input class="star-name" placeholder="Name of the star">
-                <input class="wish-txt" placeholder="Write here your wish here" size = "50">
-                <input class="e-mail" placeholder="E-mail">
+                <input class="modal-field username" placeholder="Username">
+                <input class="modal-field password" placeholder="Password" type="password">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Ok</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary logbtn">Login</button>
+                <button type="button" class="btn btn-primary regbtn" data-dismiss="modal">Register</button>
               </div>
             </div>
           </div>
@@ -90,8 +90,15 @@
       <script src="./src/js/bootstrap.js"></script>
       <script src="./src/js/js.cookie.js"></script>
       <script src="./src/js/menu.js"></script>
-      <script src="./src/js/modal.js"></script>
       <script src="./src/js/language.js"></script>
+      <script src="./src/js/modal.js"></script>
+      <!-- <script>
+      $(document).ready(function() {
+        $('.log').click(function(){
+          $('.myModal').modal();
+        });
+      })
+      </script> -->
       <!-- <script src="./src/js/angular.min.js"></script> -->
       <!-- <script src="./src/js/app.js"> -->
    </body>
