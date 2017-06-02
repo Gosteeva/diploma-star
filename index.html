@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-
+ <!-- np-app="lightastar" -->
    <head>
-        <meta charset="utf-8">
         <title>Light a star</title>
         <!--styles-->
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="./src/css/bootstrap.css">
         <link rel="stylesheet" href="./src/css/font-awesome.min.css">
         <link rel="stylesheet" href="./src/css/main-style.css">
@@ -13,6 +11,7 @@
 
 
    <body>
+
        <!--header-->
        <header>
          <button type="button" class="btn btn-search fa fa-search"></button>
@@ -22,11 +21,11 @@
            </span>
            <input type="text" class="form-control" placeholder="Search">
           </div>
-         <a href="#"><img class="head-img ukr" src="./src/img/ukr.png"></img></a>
-         <a href="#"><img class="head-img eng" src="./src/img/eng.png"></img> </a>
+         <a href="#"><img class="head-img ukr" src="./src/img/ukr.png"></a>
+         <a href="#"><img class="head-img eng" src="./src/img/eng.png"></a>
       </header>
 
-<!-- main -->
+      <!-- main -->
 
       <div class="planet">
         <div class="name">
@@ -40,11 +39,10 @@
       <button type="button" class="btn home"><a href="../index.html" class="fa fa-home"></a></button>
       <button type="button" class="btn fa fa-bars"></button>
       <div class="menu">
-
         <ul class="menu-list">
-          <li><a href="#" class="log" id="myBtn">Login/register</a></li>
-          <li><a href="#" class="norg">Add organization</a></li>
-          <li><a href="../orglist.html" class="vorg">View organizations</a></li>
+          <li><a class="log" href="#">Login/register</a></li>
+          <li><a class="norg" href="#">Add organization</a></li>
+          <li><a class="vorg" href="../orglist.html">View organizations</a></li>
         </ul>
       </div>
 
@@ -66,30 +64,35 @@
 
         <!-- modal windows -->
 
-        <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
+        <div class="myModal modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                <h4 class="modal-title">Light a star</h4>
               </div>
               <div class="modal-body">
-                ...
+                <input class="star-name" placeholder="Name of the star">
+                <input class="wish-txt" placeholder="Write here your wish here" size = "50">
+                <input class="e-mail" placeholder="E-mail">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Ok</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
 
       <!--scripts-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <!-- <script src="./src/js/jquery-3.0.0.min.js"></script> -->
       <script src="./src/js/bootstrap.js"></script>
       <script src="./src/js/js.cookie.js"></script>
       <script src="./src/js/menu.js"></script>
       <script src="./src/js/modal.js"></script>
       <script src="./src/js/language.js"></script>
+      <!-- <script src="./src/js/angular.min.js"></script> -->
+      <!-- <script src="./src/js/app.js"> -->
    </body>
 </html>
