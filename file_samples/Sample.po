@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-09-03 10:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: simple string sample
+msgid "Text for translation"
+msgstr ""
+
+#: sample with translated string
+msgid "Text for translation"
+msgstr "Translated string"
+
+#: long string without new line
+msgid ""
+"Very long string for translation"
+"even longer string for translation."
+msgstr ""
+
+#: long string with new line
+msgid ""
+"Very long string.\n"
+"Even longer string"
+msgstr ""
+"translation\n"
+"translation_2"
+
+#: plurals
+#, string with plurals forms
+msgid "Time: %1 second"
+msgid_plural "Time: %1 seconds"
+msgstr[0] "Czas: %1 sekunda"
+msgstr[1] "Czas: %1 sekundy"
+msgstr[2] "Czas: %1 sekund"
+
