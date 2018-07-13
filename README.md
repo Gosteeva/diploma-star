@@ -1,0 +1,2 @@
+# diploma-star
+ololo
