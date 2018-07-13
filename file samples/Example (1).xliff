@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="19704" original="/Example (AndroidXML).xml" source-language="en" target-language="fr" datatype="plaintext">
+    <body>
+      <trans-unit id="874396" maxwidth="20" size-unit="char">
+        <source>text</source>
+        <target state="translated">translation</target>
+        <note>Context</note>
+      </trans-unit>
+      <trans-unit id="874397" approved="yes">
+        <source>text 1</source>
+        <target>translation 1</target>
+        <note>Context 1</note>
+      </trans-unit>
+      <trans-unit id="874398">
+        <source>text 2</source>
+        <target state="needs-translation"></target>
+        <context context-type="context">Context of the segment 2</context>
+      </trans-unit>
+      <trans-unit id="874399" translate="no">
+        <source>text 3</source>
+        <target state="final">translation 3</target>
+        <note>Context 3</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
