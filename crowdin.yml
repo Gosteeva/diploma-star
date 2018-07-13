@@ -1,3 +1,6 @@
 files:
   - source: /*.html
     translation: '%original_path%/%original_file_name%.html'
+  - source: file samples/Sample.csv
+    translation: /file samples/%two_letters_code%/%original_file_name%
+    scheme: 'identifier,source_or_translation'
