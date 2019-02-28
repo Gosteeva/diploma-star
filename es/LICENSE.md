@@ -1,1 +1,1 @@
-Copyright (C) 2016 Gosteeva
+test srtring Copyright (C) 2016 Gosteeva
