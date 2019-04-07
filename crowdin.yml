@@ -1,3 +1,9 @@
 files:
   - source: /name.po
+    ignore:
+      - /**/*.html
+      - /**/*.md
+      - /**/*.ccs
+      - /**/*.xliff
+      - /**/*.xlsx
     translation: /%locale_with_underscore%/%original_file_name%
